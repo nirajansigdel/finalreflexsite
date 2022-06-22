@@ -1,0 +1,41 @@
+@media all and (max-width:900px) {
+    
+    .pathway {
+        display: none;
+    }
+
+}
+
+
+
+@media all and (max-width:600px) {
+  
+  .req-respon{
+    display:flex;
+    flex-direction: column;
+  }
+  .responsibilities-requirment{
+    width: 100%;
+    margin:0.5rem 0;
+  }
+    .textarea-body p{
+        display: flex;
+        flex-flow: row;
+        width:400px;
+    }
+    
+    .textarea-body textarea{
+        width:100%;
+       margin: 0;
+       padding: 0;
+    }
+    .pathway{
+        display: none;
+    }
+
+    .textarea-body{
+        padding:0;
+    
+    }
+    
+}

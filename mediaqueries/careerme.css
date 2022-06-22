@@ -1,0 +1,13 @@
+@media all and (max-width:600px) {
+
+
+    #numberofvacaneies{
+        display: flex;
+        flex-direction: column;
+    }
+    #numberofvacaneies a{
+        width: 35%;
+    }
+     
+ 
+}
