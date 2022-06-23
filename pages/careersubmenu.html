@@ -29,7 +29,7 @@
             <div class="nav-item nav-item-brand">
                 <div class="logo"> <img src="../image/logo.png" alt="" srcset=""></div>
             </div>
-            <div class="nav-item Navbar__Link-toggle" onclick="this.parentNode.children[2].c lassList.toggle('active')">
+            <div class="nav-item Navbar__Link-toggle" onclick="this.parentNode.children[2].classList.toggle('active')">
                 <i class="fas fa-bars"></i>
             </div>
             <nav class="nav-menu">
@@ -97,6 +97,8 @@
         <div class="formtitle"><h2>Application Form</h2></div>
     <div class="form-container">
         <div class="form-container-textarea">
+
+
             <table>
                 <tr class="inputbox">
                     <td><span>Name*</span></td>
@@ -120,7 +122,7 @@
                 </tr>
                 <tr class="inputbox">
                     <td>Gender</td>
-                   <td><select name="" id="" style="width:200px; height:5vh;">
+                   <td><select name="" class="gender">
                     <option value="">Gender</option>
                     <option value="">Male</option>
                     <option value="">Female</option>
@@ -129,21 +131,21 @@
             </td>
                 </tr>
             </table>
-             <div class="textarea-portion">
-                <div class="textarea-body">
-                    <p><span class="question">how did you know about this vacancy?</span>(write about 260
-                            words)</p>
-                    <textarea name="" id="" cols="107" rows="6"></textarea>
-                </div>
-                <div class="textarea-body">
-                    <p><span class="question">why do you want to join our team?</span>(write about 260
+            <div class="textarea-portion">
+            <div class="textarea-body">
+                <p  class="question"><span>how did you know about thisvacancy?</span>(write about 260
                         words)</p>
-                    <textarea name="" id="" cols="107" rows="6"></textarea>
-                </div>
-                <div class="button">
-                    <button>Submit</button>
-                </div>
+                <textarea name="" id="" ></textarea>
             </div>
+            <div class="textarea-body">
+                <p class="question"><span>why do you want to join our team?</span>(write about 260
+                    words)</p>
+                <textarea name="" id=""></textarea>
+            </div>
+            <div class="button">
+                <button>Submit</button>
+            </div>
+        </div>          
         </div>
         <div class="pathway">
             <img src="../image/path to career.png" alt="" srcset="">

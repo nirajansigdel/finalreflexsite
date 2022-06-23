@@ -15,7 +15,7 @@
     flex-direction: column;
   }
   .responsibilities-requirment{
-    width: 100%;
+    width: 95%;
     margin:0.5rem 0;
   }
     .textarea-body p{
@@ -23,9 +23,20 @@
         flex-flow: row;
         width:400px;
     }
-    
-    .textarea-body textarea{
-        width:100%;
+    .textarea-body .question{
+      width:25rem;
+      display: flex;
+      flex-direction:column;
+  }
+  .textarea-body textarea{
+    resize: none;
+    outline: none;
+    padding: 0 0.4rem;
+    width: 350px;
+    height: 15vh;
+ }
+    .textarea-body{
+        width:50%;
        margin: 0;
        padding: 0;
     }
@@ -33,7 +44,7 @@
         display: none;
     }
 
-    .textarea-body{
+    .textarea-body {
         padding:0;
     
     }

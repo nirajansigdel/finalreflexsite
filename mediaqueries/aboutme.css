@@ -67,7 +67,11 @@
 
 
     .what-todo-body-col1 p {
-        padding: 0.1rem;
+         padding: 0.1rem 1rem;
+         display: flex;
+         justify-content: center;  
+         align-items: center; 
+    
     }
 
     .what-todo-body {
@@ -113,10 +117,10 @@
     }
 
     .ourleader-body-image {
-        width: 120px;
+        width: 200px;
         height: 90vh;
         margin-left: 9%;
-        transform: translateY(20%);
+        transform: translateY(7%);
     }
 
     .ourleader-body-row {
@@ -154,7 +158,7 @@
         flex-flow: wrap;
         justify-content: space-between;
         width: 33%;
-        padding: 0.1rem;
+        padding: 0.1rem 0.1rem 0;
 
 
     }
@@ -180,7 +184,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 1rem 0 0 3rem;
+        padding: 0 0 0 3rem;
     }
 
 
