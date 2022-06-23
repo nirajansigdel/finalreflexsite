@@ -23,6 +23,9 @@
     flex-flow: row wrap;
     margin: 5rem 0;
 }
+.formtitle{
+    width: 100%;
+}
 .application-title h3{
     color: var(--black);
     text-align: center;
@@ -57,29 +60,24 @@
     justify-content:space-around;
     flex-flow: row wrap;
 }
-
 .question{
     font-size: 1.2rem;
     font-weight: 400;
     text-transform: capitalize;
 }
 
-.textarea-body{
-    padding:1rem 1rem;
-
-}
 .textarea-body textarea{
     resize: none;
     outline: none;
+    padding: 0 0.4rem;
+    width: 78.9%;
+    height: 15vh;
+ }
+.gender{
+    width: 40%;
+    height: 4vh;
+}
 
-}
-.textarea-body textarea:hover
-{
-    border: 1px solid var(--off-blue);
-}
-.textarea-body span{
-    letter-spacing: 0.1;
-}
 
 .pathway {
     height: 115vh;
