@@ -10,21 +10,10 @@
 #what-todo,#ourleader,#ourmember,#ourvalue{
     margin: 5rem 0 ;
 }
-#process{
-    margin: 10rem 0;
-    background-color: var(--primary-color);
 
-}
-#ourvalue{
-    padding: 1rem 0 4rem 0;
-    margin: 8rem 0;
-}
 
-#teamwork {
-    color: var(--off-blue);
-    text-transform: capitalize;
-    width: 1%;
-}
+
+
 
 .what-todo-body {
     display: flex;
@@ -73,6 +62,11 @@
     display: flex;
     flex-flow: row;
 }
+#process{
+    margin: 10rem 0;
+    background-color: var(--primary-color);
+
+}
 
 .process-body {
     width: 99%;
@@ -94,11 +88,6 @@
     text-align: center;
     margin: 5rem;
     padding: 2rem 0;
-}
-.leadersubtitle
-{
-    font-size: 1.2rem;
-    font-weight: 700;
 }
 .caption p{
     font-size: 1.5rem;
@@ -124,13 +113,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .ourleader-body-image {
     margin: 0 2rem;
- 
- 
+
    
 }
 
@@ -248,7 +235,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(90%);
+    padding: 1rem 0 4rem 0;
+    margin: 8rem 0;
 }
+
 
 .ourvalue-container {
     display: flex;
@@ -313,7 +303,7 @@ text-align: justify;
     border-radius: 4px;
     padding: 90px, 40px, 20px, 4px;
     margin: 5rem 0;
-    box-shadow: 3px 1px 7px -4px var(--off-white),-3px -1px 0 0 var(--off-blue);
+    box-shadow: 3px 1px 7px -4px black;
     font-size: 1.2rem;
     font-weight:500;
     padding: 0 2rem;
@@ -325,15 +315,5 @@ text-align: justify;
 #startyourjourney:hover{
     color: var(--off-blue);
     background-color:var(--white);
-    height: 73px;
-     border: none;
-    border-radius: 4px;
-    padding: 90px, 40px, 20px, 4px;
-    margin: 5rem 0;
-    box-shadow: 3px 1px 7px -4px var(--off-white),-3px -1px 0 0 var(--off-blue);
-    font-size: 1.2rem;
-    font-weight:500;
-    padding: 0 2rem;
-    cursor: pointer;
 
 }

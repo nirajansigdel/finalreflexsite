@@ -11,6 +11,7 @@
     width: 100%;
 }
 .formtitle h2{
+    margin: 3rem 0;
    text-align: center;
     
 }
@@ -94,7 +95,7 @@ border: 1px solid var(--off-blue);
  }
 button:hover{
     background-color: var(--white);
-    border: 1px solid var(--off-white);
+    border: 1px solid var(--off-blue);
     color: var(--off-blue);
   
 }

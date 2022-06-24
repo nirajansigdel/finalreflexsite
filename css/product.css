@@ -69,6 +69,7 @@ img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    padding: 0.1rem 0;
 }
 
 #appname {

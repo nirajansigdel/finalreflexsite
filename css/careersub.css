@@ -16,6 +16,10 @@
     padding-left: 1rem;
 }
 
+.vacaneiesnumber p{
+    color: var(--white);
+    font-weight: 500;
+}
 #req-respon{
     display: flex;
     justify-content: space-around;
@@ -71,7 +75,7 @@
     outline: none;
     padding: 0 0.4rem;
     width: 78.9%;
-    height: 15vh;
+    height: 19.1vh;
  }
 .gender{
     width: 40%;
