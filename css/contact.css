@@ -78,7 +78,17 @@ padding: 0 0.4rem;
     outline: none;
     padding: 0 0.4rem;
  }
- button
+ /* .warning{
+    color: red;
+    display: flex;
+    flex-direction: column;
+    margin-top:5rem;
+    width: 500px;
+    transform: translateX(-500px);   
+    font-weight: bolder;
+
+} */
+#submit
  {
  height: 41px;
 width: 127px;
@@ -93,7 +103,7 @@ border: 1px solid var(--off-blue);
  color: var(--white);
  margin: 1px 0 3% 65%;
  }
-button:hover{
+#submit:hover{
     background-color: var(--white);
     border: 1px solid var(--off-blue);
     color: var(--off-blue);

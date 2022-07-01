@@ -95,29 +95,36 @@
     <div class="form-container">
         <div class="form-container-textarea">
 
-
+            <form action="#" onsubmit="return validation()">
             <table>
                 <tr class="inputbox">
                     <td><span>Name*</span></td>
-                    <td><input type="text" name="" id="" required="required" placeholder="Your Name"></td>
+                    <td><input type="text" name="user" id="user" required="required" placeholder="Your Name"></td>
+                    <td><span class="warning" id="username"></span></td>
+
                 </tr>
                 <tr class="inputbox">
                     <td><span>Address*</span></td>
-                    <td><input type="text" name="" id="" required="required" placeholder="Your Name"></td>
+                    <td><input type="text" name="address" id="address" required="required" placeholder="Your Name"></td>
+                    <td><span class="warning" id="addressspan"></span></td>
+
                 </tr>
                 <tr class="inputbox">
                     <td><span>Contact Us*</span></td>
-                    <td><input type="text" name="" id="" required="required" placeholder="Your Name"></td>
+                    <td><input type="text" name="contact" id="contact" required="required" placeholder="Your Name"></td>
+                    <td><span class="warning" id="contactspan"></span></td>
                 </tr>
                 <tr class="inputbox">
                     <td><span>Email Address*</span></td>
-                    <td><input type="text" name="" id="" required="required" placeholder="Your Name"></td>
+                    <td><input type="text" name="email" id="email" required="required" placeholder="Your Name"></td>
+                    <td><span class="warning" id="emailspan"></span></td>
                 </tr>
-                <tr class="inputbox">
+                <tr class="inputbox"  id="input">
                     <td>Date*</td>
                    <td> <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max=""></td>
+                   <td><span class="warning" id="datespan"></span></td>
                 </tr>
-                <tr class="inputbox">
+                <tr class="inputbox" id="gender">
                     <td>Gender</td>
                    <td><select name="" class="gender">
                     <option value="">Gender</option>
@@ -139,9 +146,8 @@
                     words)</p>
                 <textarea name="" id=""></textarea>
             </div>
-            <div class="button">
-                <button>Submit</button>
-            </div>
+            <input type="submit" name="submit" id="submit">
+        </form>
         </div>          
         </div>
         <div class="pathway">
@@ -225,6 +231,7 @@
 <div class="copyright-footer">
     <p>2022 Reflex I.T. Solution Pvt. Ltd. | All Rights Reserved </p>
 </div>
+<script src="../java/form.js"></script>
 
 </body>
 

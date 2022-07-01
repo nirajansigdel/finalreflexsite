@@ -78,4 +78,7 @@ nav .active a {
 .nav-item a:hover {
     color: var(--off-blue);
     text-shadow: 0.7px 0px var(--off-blue);
+    border-bottom: 3px solid var(--black);
+    
+  
 }
