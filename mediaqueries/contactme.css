@@ -1,4 +1,7 @@
 @media all and (max-width: 600px) {
+
+
+  
 .formtitle h2{
     display: flex;
     text-align: center;
@@ -39,7 +42,7 @@ height: 48px;
     display: none;
  }
 
- button
+ #submit
  {
  height: 41px;
 width: 30%;
@@ -52,7 +55,7 @@ border: 1px solid var(--off-blue);
  cursor: pointer;
  font-size: 1rem;
  color: var(--white);
- margin: 1px 0 3% 65%;
+ margin: 1px 0 3% 50%;
  }
 
 
