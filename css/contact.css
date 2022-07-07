@@ -11,7 +11,7 @@
     width: 100%;
 }
 .formtitle h2{
-    margin: 3rem 0;
+    margin: 2rem 0;
    text-align: center;
     
 }
@@ -41,7 +41,6 @@ padding-right: 3rem;
 
 }
 .inputbox input{
-width:250px;
  height: 48px;
 width: 479px;
 left: 271px;
@@ -78,16 +77,9 @@ padding: 0 0.4rem;
     outline: none;
     padding: 0 0.4rem;
  }
- /* .warning{
-    color: red;
-    display: flex;
-    flex-direction: column;
-    margin-top:5rem;
-    width: 500px;
-    transform: translateX(-500px);   
-    font-weight: bolder;
-
-} */
+ .map{
+    width: 40%;
+ }
 #submit
  {
  height: 41px;
